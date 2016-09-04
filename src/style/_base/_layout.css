@@ -1,0 +1,11 @@
+.main__content {
+	float: left;
+	width: 735px;
+}
+.main__sidebar {
+	float: right;
+	width: 330px;
+}
+.main-title {
+	margin-bottom: 25px;
+}

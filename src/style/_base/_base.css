@@ -1,0 +1,18 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.section {
+	width: 100%;
+}
+.container {
+	@extend .clearfix;
+	width: 100%;
+	max-width: 1105px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+a {
+	color: var(--blue);
+}

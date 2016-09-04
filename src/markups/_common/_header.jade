@@ -1,0 +1,28 @@
+header.main-header
+	.header-top
+		.container
+			.header-top__leftside
+				.header-top__location
+					| Город: 
+					a(class="header-top__city" href="#")
+						| Алматы
+				a(href="call:89055567834").header-top__phone
+					|8(905) 556-78-34
+			.header-top__rightside
+				.header-top__auth
+					a(class="auth__log-in" href="#" )
+						| Войти
+					a(class="auth__register" href="#" )
+						| Регистрация
+	.header-bottom
+		.container
+			.header-bottom__main-logo
+				a(class="main-logo__link" href="index.html")
+					img(class="main-logo__img" alt="alinex logo" src="images/main-logo.png")
+			nav.header-bottom__main-nav
+				ul.main-nav__list
+					-
+						var items = ['Найти исполнителя', 'Оставить заявку', 'Найти заказ', 'Школа ремонта']
+					each item,num in items
+						li.main-nav__item
+							a(class="main-nav__link" + (num == 0 ? " active" : "") href="#")= item

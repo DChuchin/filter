@@ -1,0 +1,13 @@
+.order
+	h3.order__title
+		| Заявка на подбор специалиста
+	form(class="order__form")
+		label(class="order__label")
+			input(class="order__input order__input--name" type="text" name="name" placeholder="Ваше имя")
+		label(class="order__label order__label--phone")
+			input(class="order__input" type="text" name="mobile-phone" placeholder="Ваш телефон")
+		.order__submit-wrap
+			button(class="order__submit" type="submit")
+				| Оформить
+	.order__details
+		| После отправки у вас появится возможность для уточнения деталей

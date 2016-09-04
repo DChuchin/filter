@@ -1,0 +1,34 @@
+.breadcrumbs {
+	margin-bottom: 10px;
+}
+.breadcrumbs__list {
+	margin: 0;
+	padding: 0;
+}
+.breadcrumbs__item {
+	display: inline-block;
+		
+	&:first-child {
+		& .breadcrumbs__link {
+			color: var(--blue);
+			text-decoration: underline;
+			
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+}
+.breadcrumbs__link {
+	display: inline-block;
+	font-size: 18px;
+	color: #000000;
+	text-decoration: none;
+
+	&:before {
+		content: '\27F6';
+		display: inline-block;
+		color: #000000;
+	}
+}

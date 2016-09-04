@@ -1,0 +1,53 @@
+.filter
+	.filter__kind
+		h3.filter__title
+			| Виды работ
+		ul.filter__list
+			-
+				var outer = ["Инженерно-монтажные", "Строительно-монтажные","Отделочные","Мелкие бытовые услуги","Благоустройство территорий","Архитектура и проектирование", "Оформление и дизайн"]
+			each item,num in outer 
+				li.filter__item
+					label(class="filter__label")
+						input(class="filter__checkbox" type="checkbox")
+						.filter__checkbox-element
+						.filter__text.filter__text--outer= item
+					- if (num == 2)
+						ul.filter__inner-list
+							-
+								var inner = ["Ремонт квартиры", "Ремонт кухни", "Ремонт ванной", "Ремонт офиса ", "Монтаж потолков", "Устройство полов, стяжка, выравнивание ", "Малярные, штукатурные работы"]
+							each el in inner
+								li.filter__item.filter__item--inner
+									label(class="filter__label filter__label--inner")
+										input(class="filter__checkbox" type="checkbox")
+										.filter__checkbox-element
+										.filter__text.filter__text--inner= el
+					- if (num == 3)
+						ul.filter__inner-list
+							-
+								var inner = ["Ремонт окон", 'Услуга "Муж на час"', "Подключение бытовой техники", "Реставрация ванн ", "Установка и замена замков", "Клининг (уборка помещений)", "Установка водосчетчиков и теплосчетчиков"]
+							each el in inner
+								li.filter__item.filter__item--inner
+									label(class="filter__label filter__label--inner")
+										input(class="filter__checkbox" type="checkbox")
+										.filter__checkbox-element
+										.filter__text= el
+	.filter__kind
+		h3.filter__title
+			| Цена
+		.filter__price
+			.filter__price-left
+				.filter__price-text от
+				input(name="" type="text" placeholder="").filter__price-input
+			.filter__price-right
+				.filter__price-text до
+				input(name="" type="text" placeholder="").filter__price-input
+			.filter__price-unit
+				| т
+	.filter__kind
+		label(class="filter__label filter__label--inner")
+			input(class="filter__checkbox" type="checkbox")
+			.filter__checkbox-element
+			.filter__text
+				| Только с отзывами
+
+

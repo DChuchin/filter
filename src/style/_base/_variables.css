@@ -1,0 +1,18 @@
+:root {
+	--black: #0f1412;
+	--gray: #2d2d2d;
+	--text: #000000;
+	--text-gray: #7f7f7f;
+	--green-light: #1d7f4c;
+	--green-dark: #03572d;
+	--green-header-bottom: #0f5b31;
+	--green-top: #136b3e;
+	--green-top-dark: #12663a;
+	--green-bottom-dark: #0a4b24;
+	--orange: #ff6620;
+	--purple: #3a3e64;
+	--blue: #0390d8;
+
+	--geen-gradient-light: linear-gradient(to top, var(--green-header-bottom), var(--green-top));
+	--geen-gradient-dark: linear-gradient(to top, var(--green-bottom-dark), var(--green-top-dark));
+}

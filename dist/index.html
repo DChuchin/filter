@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width">
+		<title>filter</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="main-header">
+				<div class="header-top">
+					<div class="container">
+						<div class="header-top__leftside">
+							<div class="header-top__location">Город: <a href="#" class="header-top__city">Алматы</a></div><a href="call:89055567834" class="header-top__phone">8(905) 556-78-34</a>
+						</div>
+						<div class="header-top__rightside">
+							<div class="header-top__auth"><a href="#" class="auth__log-in">Войти</a><a href="#" class="auth__register">Регистрация</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom">
+					<div class="container">
+						<div class="header-bottom__main-logo"><a href="index.html" class="main-logo__link"><img alt="alinex logo" src="images/main-logo.png" class="main-logo__img"></a></div>
+						<nav class="header-bottom__main-nav">
+							<ul class="main-nav__list">
+								<li class="main-nav__item"><a href="#" class="main-nav__link active">Найти исполнителя</a></li>
+								<li class="main-nav__item"><a href="#" class="main-nav__link">Оставить заявку</a></li>
+								<li class="main-nav__item"><a href="#" class="main-nav__link">Найти заказ</a></li>
+								<li class="main-nav__item"><a href="#" class="main-nav__link">Школа ремонта</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<div class="breadcrumbs">
+				<div class="container">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item active"><a href="#" class="breadcrumbs__link">Главная</a></li>
+						<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Найти исполнителя</a></li>
+					</ul>
+				</div>
+			</div>
+			<main class="main">
+				<div class="container">
+					<h1 class="main-title">Мастера по ремонту</h1>
+					<div class="main__content">
+						<div class="order">
+							<h3 class="order__title">Заявка на подбор специалиста</h3>
+							<form class="order__form">
+								<label class="order__label">
+									<input type="text" name="name" placeholder="Ваше имя" class="order__input order__input--name">
+								</label>
+								<label class="order__label order__label--phone">
+									<input type="text" name="mobile-phone" placeholder="Ваш телефон" class="order__input">
+								</label>
+								<div class="order__submit-wrap">
+									<button type="submit" class="order__submit">Оформить</button>
+								</div>
+							</form>
+							<div class="order__details">После отправки у вас появится возможность для уточнения деталей</div>
+						</div>
+						<article class="master">
+							<div class="master__content">
+								<header class="master__header">
+									<div class="master__photo-wrap"><img src="images/master-photo.jpg" class="master__photo"></div>
+									<h2 class="master__name">Иванов и Сидоров</h2>
+									<div class="master__taxonomy">Сантехнические работы, установка дверей, устройство полов, монтаж потолков, оклейка обоями, ремонт квартир и коттеджей, <a href="#">все услуги</a></div>
+								</header>
+								<div class="master__bio">Юрий Сергеевич — мастер с 25-летним стажем. Он справляется с любой поставленной задачей: установка сантехники, сборка мебели, врезка замков и многое другое. Его специализация — электромонтажные работы. Готов принимать заказы на ремонтные работы в квартирах, дачах и домах.</div>
+								<div class="master__works">
+									<h3 class="works__title">Примеры работ</h3>
+									<div class="works__slider">
+										<div class="slider__big-img-wrap"><img calss="slider__big-img" src="images/big-slide.jpg" alt="большая картинка"></div>
+										<div class="slider__gallery-wrap">
+											<div class="slider__gallery">
+												<ul class="slider__list">
+													<li class="slider__item  active"><img src="images/work-1.jpg" data-src="images/work-1-big.jpg" alt="Картнка номер 1" class="slider__img slider__img--1"></li>
+													<li class="slider__item "><img src="images/work-2.jpg" data-src="images/work-2-big.jpg" alt="Картнка номер 2" class="slider__img slider__img--2"></li>
+													<li class="slider__item "><img src="images/work-3.jpg" data-src="images/work-3-big.jpg" alt="Картнка номер 3" class="slider__img slider__img--3"></li>
+													<li class="slider__item "><img src="images/work-4.jpg" data-src="images/work-4-big.jpg" alt="Картнка номер 4" class="slider__img slider__img--4"></li>
+													<li class="slider__item "><img src="images/work-5.jpg" data-src="images/work-5-big.jpg" alt="Картнка номер 5" class="slider__img slider__img--5"></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="master__feedback">
+									<h3 class="feedback__title">Отзывы</h3>
+									<div class="feedback__content">Олег Русланович настоящий профессионал своего дела. Его знания об используемых материалах и новых технологиях впечатляют. Он дал мне много полезных советов по дальнейшей эксплуатации сантехники. Жалею, что обратилась к нему на последнем этапе ремонта ванной - местные сотрудники не взялись устанавливать и подключать акриловую ванну.</div><a href="" class="feedback__link">Все отзывы <span class="feedback__amount">(23)</span></a>
+								</div>
+								<div class="master__price">
+									<h3 class="price__title">Цены от</h3>
+									<div class="price">
+										<p>500т — Медкий бытовой ремонт</p>
+										<p>150т  / 1 пог.м  — Прокладка кабеля</p>
+										<p>200 т / 1 пог.м  — Штробление</p>
+										<p>500 т — Установка люстры</p>
+									</div>
+								</div>
+							</div>
+							<aside class="master__sidebar">
+								<div class="rating raiting--grade">
+									<div class="rating__num rating__num--grade">5+</div>
+									<div class="rating__title">Рейтинг</div>
+								</div>
+								<div class="rating rating--feedback">
+									<div class="rating__num rating__num--feedback">40</div>
+									<div class="raiting__title"><a href="#">Отзывов</a></div>
+								</div>
+								<button type="button" class="choose-btn">Выбрать</button>
+							</aside>
+						</article>
+						<article class="master">
+							<div class="master__content">
+								<header class="master__header">
+									<div class="master__photo-wrap"><img src="images/master-photo.jpg" class="master__photo"></div>
+									<h2 class="master__name">Иванов и Сидоров</h2>
+									<div class="master__taxonomy">Сантехнические работы, установка дверей, устройство полов, монтаж потолков, оклейка обоями, ремонт квартир и коттеджей, <a href="#">все услуги</a></div>
+								</header>
+								<div class="master__bio">Юрий Сергеевич — мастер с 25-летним стажем. Он справляется с любой поставленной задачей: установка сантехники, сборка мебели, врезка замков и многое другое. Его специализация — электромонтажные работы. Готов принимать заказы на ремонтные работы в квартирах, дачах и домах.</div>
+								<div class="master__works">
+									<h3 class="works__title">Примеры работ</h3>
+									<div class="works__slider">
+										<div class="slider__big-img-wrap"><img calss="slider__big-img" src="images/big-slide.jpg" alt="большая картинка"></div>
+										<div class="slider__gallery-wrap">
+											<div class="slider__gallery">
+												<ul class="slider__list">
+													<li class="slider__item  active"><img src="images/work-1.jpg" data-src="images/work-1-big.jpg" alt="Картнка номер 1" class="slider__img slider__img--1"></li>
+													<li class="slider__item "><img src="images/work-2.jpg" data-src="images/work-2-big.jpg" alt="Картнка номер 2" class="slider__img slider__img--2"></li>
+													<li class="slider__item "><img src="images/work-3.jpg" data-src="images/work-3-big.jpg" alt="Картнка номер 3" class="slider__img slider__img--3"></li>
+													<li class="slider__item "><img src="images/work-4.jpg" data-src="images/work-4-big.jpg" alt="Картнка номер 4" class="slider__img slider__img--4"></li>
+													<li class="slider__item "><img src="images/work-5.jpg" data-src="images/work-5-big.jpg" alt="Картнка номер 5" class="slider__img slider__img--5"></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="master__feedback">
+									<h3 class="feedback__title">Отзывы</h3>
+									<div class="feedback__content">Олег Русланович настоящий профессионал своего дела. Его знания об используемых материалах и новых технологиях впечатляют. Он дал мне много полезных советов по дальнейшей эксплуатации сантехники. Жалею, что обратилась к нему на последнем этапе ремонта ванной - местные сотрудники не взялись устанавливать и подключать акриловую ванну.</div><a href="" class="feedback__link">Все отзывы <span class="feedback__amount">(23)</span></a>
+								</div>
+								<div class="master__price">
+									<h3 class="price__title">Цены от</h3>
+									<div class="price">
+										<p>500т — Медкий бытовой ремонт</p>
+										<p>150т  / 1 пог.м  — Прокладка кабеля</p>
+										<p>200 т / 1 пог.м  — Штробление</p>
+										<p>500 т — Установка люстры</p>
+									</div>
+								</div>
+							</div>
+							<aside class="master__sidebar">
+								<div class="rating raiting--grade">
+									<div class="rating__num rating__num--grade">5+</div>
+									<div class="rating__title">Рейтинг</div>
+								</div>
+								<div class="rating rating--feedback">
+									<div class="rating__num rating__num--feedback">40</div>
+									<div class="raiting__title"><a href="#">Отзывов</a></div>
+								</div>
+								<button type="button" class="choose-btn">Выбрать</button>
+							</aside>
+						</article>
+					</div>
+					<aside class="main__sidebar">
+						<div class="filter">
+							<div class="filter__kind">
+								<h3 class="filter__title">Виды работ</h3>
+								<ul class="filter__list">
+									<li class="filter__item">
+										<label class="filter__label">
+											<input type="checkbox" class="filter__checkbox">
+											<div class="filter__checkbox-element"></div>
+											<div class="filter__text filter__text--outer">Инженерно-монтажные</div>
+										</label>
+									</li>
+									<li class="filter__item">
+										<label class="filter__label">
+											<input type="checkbox" class="filter__checkbox">
+											<div class="filter__checkbox-element"></div>
+											<div class="filter__text filter__text--outer">Строительно-монтажные</div>
+										</label>
+									</li>
+									<li class="filter__item">
+										<label class="filter__label">
+											<input type="checkbox" class="filter__checkbox">
+											<div class="filter__checkbox-element"></div>
+											<div class="filter__text filter__text--outer">Отделочные</div>
+										</label>
+										<ul class="filter__inner-list">
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text filter__text--inner">Ремонт квартиры</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text filter__text--inner">Ремонт кухни</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text filter__text--inner">Ремонт ванной</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text filter__text--inner">Ремонт офиса </div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text filter__text--inner">Монтаж потолков</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text filter__text--inner">Устройство полов, стяжка, выравнивание </div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text filter__text--inner">Малярные, штукатурные работы</div>
+												</label>
+											</li>
+										</ul>
+									</li>
+									<li class="filter__item">
+										<label class="filter__label">
+											<input type="checkbox" class="filter__checkbox">
+											<div class="filter__checkbox-element"></div>
+											<div class="filter__text filter__text--outer">Мелкие бытовые услуги</div>
+										</label>
+										<ul class="filter__inner-list">
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text">Ремонт окон</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text">Услуга &quot;Муж на час&quot;</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text">Подключение бытовой техники</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text">Реставрация ванн </div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text">Установка и замена замков</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text">Клининг (уборка помещений)</div>
+												</label>
+											</li>
+											<li class="filter__item filter__item--inner">
+												<label class="filter__label filter__label--inner">
+													<input type="checkbox" class="filter__checkbox">
+													<div class="filter__checkbox-element"></div>
+													<div class="filter__text">Установка водосчетчиков и теплосчетчиков</div>
+												</label>
+											</li>
+										</ul>
+									</li>
+									<li class="filter__item">
+										<label class="filter__label">
+											<input type="checkbox" class="filter__checkbox">
+											<div class="filter__checkbox-element"></div>
+											<div class="filter__text filter__text--outer">Благоустройство территорий</div>
+										</label>
+									</li>
+									<li class="filter__item">
+										<label class="filter__label">
+											<input type="checkbox" class="filter__checkbox">
+											<div class="filter__checkbox-element"></div>
+											<div class="filter__text filter__text--outer">Архитектура и проектирование</div>
+										</label>
+									</li>
+									<li class="filter__item">
+										<label class="filter__label">
+											<input type="checkbox" class="filter__checkbox">
+											<div class="filter__checkbox-element"></div>
+											<div class="filter__text filter__text--outer">Оформление и дизайн</div>
+										</label>
+									</li>
+								</ul>
+							</div>
+							<div class="filter__kind">
+								<h3 class="filter__title">Цена</h3>
+								<div class="filter__price">
+									<div class="filter__price-left">
+										<div class="filter__price-text">от</div>
+										<input name="" type="text" placeholder="" class="filter__price-input">
+									</div>
+									<div class="filter__price-right">
+										<div class="filter__price-text">до</div>
+										<input name="" type="text" placeholder="" class="filter__price-input">
+									</div>
+									<div class="filter__price-unit">т</div>
+								</div>
+							</div>
+							<div class="filter__kind">
+								<label class="filter__label filter__label--inner">
+									<input type="checkbox" class="filter__checkbox">
+									<div class="filter__checkbox-element"></div>
+									<div class="filter__text">Только с отзывами</div>
+								</label>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</main>
+		</div>
+		<footer class="main-footer">
+			<div class="container">
+				<div class="footer-top">
+					<div class="footer-top__logo"><a href="index.html" class="main-logo__link"><img alt="alinex logo" src="images/main-logo.png" class="main-logo__img"></a></div>
+					<nav class="footer-top__nav">
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Найти исполнителя</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Оставить заявку</a></li>
+						</ul>
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Найти заказ</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Школа ремонта</a></li>
+						</ul>
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Обратная связь</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Карта сайта</a></li>
+						</ul>
+					</nav>
+					<div class="footer-top__copyright">©</div>
+				</div>
+				<div class="footer-bottom">
+					<h3 class="footer-bottom__title">Мастера по ремонту</h3>
+					<nav class="footer-bottom__nav">
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Благоустройство территории</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Бурение скважин</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Возведение стен и перегородок</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Вывоз мусора</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Геодезические работы</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Декоирование интерьера</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Демонтаж сооружений и кострукций</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Дизайн интерьера</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Другие услуги</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Земляные работы</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Изготовление и монтаж конструкций</a></li>
+						</ul>
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Изготовление и ремонт мебели</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Изготовление рекламы</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Изоляционные работы</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Кладка печей, каминов. барбекю</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Клининг</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Ландшафтный дизайн</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Малярные и штукатурные работы</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Межевание и кадастр</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Мелкий бытовой ремонт</a></li>
+						</ul>
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Монтаж вентиляции и кондиционеров </a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Монтаж канализации </a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Монтаж окон</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Монтаж потолков</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Монтаж систем отопления и водоснабжения </a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Монтаж труб </a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Наружное освещение</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Обшивка стен</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Оклейка обоями</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Остекление балконов и лоджий</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Переезд</a></li>
+						</ul>
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Благоустройство территории</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Бурение скважин</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Возведение стен и перегородок</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Вывоз мусора</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Геодезические работы</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Декорирование интерьера</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Демонтаж сооружений и конструкций </a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Дизайн интерьера </a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Другие услуги</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Земляные работы </a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Изготовление и монтаж металлоконструкций</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+		<script src="js/main.js"></script>
+	</body>
+</html>

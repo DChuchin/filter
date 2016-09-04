@@ -1,0 +1,47 @@
+.order {
+	border: 1px dashed var(--text-gray);
+	padding: 25px 30px;
+	margin-bottom: 35px;
+}
+.order__title {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+.order__form {
+	margin: 0 -10px;
+	font-size: 0;
+	margin-bottom: 12px;	
+}
+.order__label {
+	display: inline-block;
+	vertical-align: middle;
+	width: 235px;
+	font-size: 18px;
+	padding: 0 10px;
+
+	&--phone {
+		width: 255px;
+	}
+}
+.order__input {
+	width: 100%;
+	padding: 7px 5px;
+	padding-left: 35px;
+	color: #000000;
+}
+.order__submit-wrap {
+	display: inline-block;
+	vertical-align: middle;
+	width: 140px;
+	padding: 0 10px;
+}
+.order__submit {
+	@extend .btn;
+	@extend .btn--green;
+	width: 100%;
+	font-size: 18px;
+}
+.order__details {
+	color: #626262;
+}

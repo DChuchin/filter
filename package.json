@@ -1,0 +1,32 @@
+{
+  "name": "hj6_chuchin_01",
+  "version": "1.0.0",
+  "description": "homework 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://DmitryChuchin@bitbucket.org/DmitryChuchin/hj6_chuchin_01.git"
+  },
+  "author": "Dmitry C.",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/DmitryChuchin/hj6_chuchin_01#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "cssnano": "^3.7.4",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pngquant": "^1.0.10",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "imagemin-pngquant": "^5.0.0",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-import": "^8.1.2"
+  }
+}

@@ -1,0 +1,14 @@
+extends ../main
+block title
+	| filter
+block content
+	main.main
+		.container
+			h1.main-title
+				| Мастера по ремонту
+			.main__content
+				include ../_common/_order
+				include ../_common/_article
+				include ../_common/_article
+			aside.main__sidebar
+				include ../_common/_filter

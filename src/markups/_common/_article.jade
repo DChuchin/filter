@@ -1,0 +1,62 @@
+article.master
+	.master__content
+		header.master__header
+			.master__photo-wrap
+				img(class="master__photo" src="images/master-photo.jpg")
+			h2.master__name
+				| Иванов и Сидоров
+			.master__taxonomy
+				| Сантехнические работы, установка дверей, устройство полов, монтаж потолков, оклейка обоями, ремонт квартир и коттеджей, 
+				a(href="#")
+					| все услуги
+		.master__bio
+			| Юрий Сергеевич — мастер с 25-летним стажем. Он справляется с любой поставленной задачей: установка сантехники, сборка мебели, врезка замков и многое другое. Его специализация — электромонтажные работы. Готов принимать заказы на ремонтные работы в квартирах, дачах и домах.
+		.master__works
+			h3.works__title
+				| Примеры работ
+			.works__slider
+				.slider__big-img-wrap
+					img(calss="slider__big-img" src="images/big-slide.jpg" alt="большая картинка")
+				.slider__gallery-wrap
+					.slider__gallery
+						ul.slider__list
+							-
+								var n = 1
+							while n < 6
+								li(class="slider__item " + (n==1 ? " active" : ""))
+									img(class="slider__img slider__img--" + n++ + "" src="images/work-" + n + ".jpg"  data-src="images/work-" + n + "-big.jpg" alt="Картнка номер " + n)
+		.master__feedback
+			h3.feedback__title
+				| Отзывы
+			.feedback__content
+				| Олег Русланович настоящий профессионал своего дела. Его знания об используемых материалах и новых технологиях впечатляют. Он дал мне много полезных советов по дальнейшей эксплуатации сантехники. Жалею, что обратилась к нему на последнем этапе ремонта ванной - местные сотрудники не взялись устанавливать и подключать акриловую ванну.
+			a.feedback__link(href="")
+				| Все отзывы 
+				span.feedback__amount
+					|(23)
+		.master__price
+			h3.price__title
+				| Цены от
+			.price
+				p
+					| 500т — Медкий бытовой ремонт
+				p
+					| 150т  / 1 пог.м  — Прокладка кабеля
+				p
+					| 200 т / 1 пог.м  — Штробление
+				p
+					| 500 т — Установка люстры
+	aside.master__sidebar
+		.rating.raiting--grade
+			.rating__num.rating__num--grade
+				|5+
+			.rating__title
+				| Рейтинг
+		.rating.rating--feedback
+			.rating__num.rating__num--feedback
+				| 40
+			.raiting__title
+				a(href="#")
+					| Отзывов
+		button(class="choose-btn" type="button")
+			| Выбрать

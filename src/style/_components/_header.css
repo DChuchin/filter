@@ -1,0 +1,113 @@
+.main-header {
+	margin-bottom: 35px;
+}
+.header-top {
+	background: var(--black);
+	color: #ffffff;
+}
+.header-top__leftside {
+	padding: 9px 0;
+	float: left;
+}
+.header-top__location {
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-top__city {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px dashed #ffffff;
+	margin-right: 45px;
+	margin-left: 5px;
+	line-height: 1;
+
+	&:hover {
+		border-bottom-style: solid;
+	}
+}
+.header-top__phone {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	padding-left: 25px;
+	text-decoration: none;
+	color: #ffffff;
+	&:before {
+		position: absolute;
+		top: 5px;
+		left: 0;
+		content: '';
+		background: url('../images/phone.png') 50% no-repeat;
+		height: 17px;
+		width: 17px;
+	}
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.header-top__rightside {
+	padding: 7px 0;
+	float: right;
+}
+.auth__log-in {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 1px 16px;
+	border: 1px dashed #ffffff;
+	border-radius: 3px;
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 22px;
+
+	&:hover {
+		border-style: solid;
+	}
+}
+.auth__register {
+	display: inline-block;
+	vertical-align: middle;
+	font-style: italic;
+	color: #ffffff;
+}
+.header-bottom {
+	background: var(--geen-gradient-light)
+}
+.header-bottom__main-logo {
+	float: left;
+	padding: 7px 0;
+}
+.main-logo__link {
+	display: inline-block;
+	width: 95px;
+	height: 47px;
+}
+.main-logo__img {
+	width: 100%;
+}
+.header-bottom__main-nav {
+	float: right;
+	margin-right: -40px;
+}
+.main-nav__list {
+	margin: 0;
+	padding: 0;
+}
+.main-nav__item {
+	display: inline-block;
+}
+.main-nav__link {
+	display: inline-block;
+	padding: 0 40px;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 #000000;
+	line-height: 64px;
+	font-size: 18px;
+	text-decoration: none;
+	&.active {
+		background: var(--green-dark);
+		box-shadow: inset 0 0 5px 0 #000000;
+	}
+}
+

@@ -1,0 +1,7 @@
+.breadcrumbs
+	.container
+		ul.breadcrumbs__list
+			- var items = ['Главная', 'Найти исполнителя']
+			each item in items
+				li(class="breadcrumbs__item" + ((item == "Главная") ? " active" : ""))
+					a(href="#").breadcrumbs__link= item
