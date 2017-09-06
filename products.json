@@ -3,20 +3,6 @@
     {
       "node": {
         "field_prod_image": {
-          "src": "http://clients.adciserver.com:1900/sites/default/files/styles/280x230/public/components/specialty_shutter_1_3.jpg?itok=1wwfN5sb",
-          "alt": ""
-        },
-        "title": "Sun Star - Rolling Shutter",
-        "field_subtitle": "Sun shading system for sun rooms, skylights and solariums",
-        "field_prod_application": "Shading, Privacy, Security, Energy Savings",
-        "field_prod_tags": "Glass Roofs, Pergolas, Skylights, Sun Rooms",
-        "path": "/products/sun-star-rolling-shutter/sun-star-rolling-shutter/index.htm",
-        "title_1": "Sun Star Rolling Shutter "
-      }
-    },
-    {
-      "node": {
-        "field_prod_image": {
           "src": "http://clients.adciserver.com:1900/sites/default/files/styles/280x230/public/components/studio-star2.jpg?itok=M54DseDY",
           "alt": ""
         },
@@ -25,7 +11,23 @@
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alutech-rolling-shutters/studio-star-custom-shaped-shutter/index.htm",
-        "title_1": "Alutech Rolling Shutters"
+        "title_1": "Alutech Rolling Shutters",
+        "field_component_weight": "0"
+      }
+    },
+    {
+      "node": {
+        "field_prod_image": {
+          "src": "http://clients.adciserver.com:1900/sites/default/files/styles/280x230/public/components/specialty_shutter_1_3.jpg?itok=1wwfN5sb",
+          "alt": ""
+        },
+        "title": "Sun Star - Rolling Shutter",
+        "field_subtitle": "Sun shading system for sun rooms, skylights and solariums",
+        "field_prod_application": "Shading, Privacy, Security, Energy Savings",
+        "field_prod_tags": "Glass Roofs, Pergolas, Skylights, Sun Rooms",
+        "path": "/products/sun-star-rolling-shutter/sun-star-rolling-shutter/index.htm",
+        "title_1": "Sun Star Rolling Shutter ",
+        "field_component_weight": "0"
       }
     },
     {
@@ -39,7 +41,8 @@
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/mini-overhead-door-shutter/magnum.htm",
-        "title_1": "Alutech Rolling Shutters"
+        "title_1": "Alutech Rolling Shutters",
+        "field_component_weight": "1"
       }
     },
     {
@@ -53,7 +56,8 @@
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/hurricane-shutters/barracuda.htm",
-        "title_1": "Alutech Rolling Shutters"
+        "title_1": "Alutech Rolling Shutters",
+        "field_component_weight": "10"
       }
     },
     {
@@ -67,7 +71,8 @@
         "field_prod_application": "Insect",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/scorpion-insect-screen/scorpion-insect-screen/index.htm",
-        "title_1": "Scorpion - Insect Screen "
+        "title_1": "Scorpion - Insect Screen ",
+        "field_component_weight": "20"
       }
     },
     {
@@ -81,7 +86,8 @@
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-motorized-screen/insect-screens/index.htm",
-        "title_1": "Zip Tex - Motorized Screen"
+        "title_1": "Zip Tex - Motorized Screen",
+        "field_component_weight": "20"
       }
     },
     {
@@ -95,7 +101,8 @@
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-motorized-screen/solar-shading-screens/index.htm",
-        "title_1": "Zip Tex - Motorized Screen"
+        "title_1": "Zip Tex - Motorized Screen",
+        "field_component_weight": "30"
       }
     },
     {
@@ -109,7 +116,8 @@
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-motorized-screen/vinyl-roll-screen/index.htm",
-        "title_1": "Zip Tex - Motorized Screen"
+        "title_1": "Zip Tex - Motorized Screen",
+        "field_component_weight": "40"
       }
     },
     {
@@ -123,7 +131,8 @@
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-motorized-screen/motorized-garage-door-screen/index.htm",
-        "title_1": "Zip Tex - Motorized Screen"
+        "title_1": "Zip Tex - Motorized Screen",
+        "field_component_weight": "50"
       }
     },
     {
@@ -137,7 +146,8 @@
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-exterior-rolling-solar-screen/zip-tex-cable-system.htm",
-        "title_1": "Zip Tex - Motorized Screen"
+        "title_1": "Zip Tex - Motorized Screen",
+        "field_component_weight": "60"
       }
     },
     {
@@ -151,7 +161,8 @@
         "field_prod_application": "Hurricane, Security",
         "field_prod_tags": "Balconies, Doors, Lanai, Wide Opening, Windows",
         "path": "/products/accordion-shutter/hv-bertha.htm",
-        "title_1": "Accordion Shutters"
+        "title_1": "Accordion Shutters",
+        "field_component_weight": "80"
       }
     },
     {
@@ -165,7 +176,8 @@
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/privacy-security-shutters/rc37.htm",
-        "title_1": "Alutech Rolling Shutters"
+        "title_1": "Alutech Rolling Shutters",
+        "field_component_weight": "90"
       }
     },
     {
@@ -179,7 +191,8 @@
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/hurricane-shutters/rce-40.htm",
-        "title_1": "Alutech Rolling Shutters"
+        "title_1": "Alutech Rolling Shutters",
+        "field_component_weight": "100"
       }
     },
     {
@@ -193,7 +206,8 @@
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/privacy-security-shutters/rc40-rc42.htm",
-        "title_1": "Alutech Rolling Shutters"
+        "title_1": "Alutech Rolling Shutters",
+        "field_component_weight": "110"
       }
     },
     {
@@ -207,7 +221,8 @@
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/hurricane-shutters/bertha-58.htm",
-        "title_1": "Alutech Rolling Shutters"
+        "title_1": "Alutech Rolling Shutters",
+        "field_component_weight": "130"
       }
     }
   ]
