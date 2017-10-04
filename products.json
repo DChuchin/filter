@@ -8,12 +8,14 @@
         },
         "title": "Studio Star - Custom Shaped Shutter",
         "field_subtitle": "Roller Shutter For Any Window Shape",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alutech-rolling-shutters/studio-star-custom-shaped-shutter/index.htm",
         "title_1": "Alutech Rolling Shutters",
-        "field_component_weight": "0"
+        "field_component_weight": "0",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -24,12 +26,14 @@
         },
         "title": "Sun Star - Rolling Shutter",
         "field_subtitle": "Sun shading system for sun rooms, skylights and solariums",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Glass Roofs, Pergolas, Skylights, Sun Rooms",
         "path": "/products/sun-star-rolling-shutter/sun-star-rolling-shutter/index.htm",
         "title_1": "Sun Star Rolling Shutter ",
-        "field_component_weight": "0"
+        "field_component_weight": "0",
+        "field_component_applications": "Shading, Privacy, Security, Energy Savings",
+        "field_openings": "Glass Roofs, Pergolas, Skylights, Sun Rooms"
       }
     },
     {
@@ -40,12 +44,14 @@
         },
         "title": "Magnum",
         "field_subtitle": "Mini / Small Overhead Door and Hurricane Shutter",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/mini-overhead-door-shutter/magnum.htm",
         "title_1": "Alutech Rolling Shutters",
-        "field_component_weight": "1"
+        "field_component_weight": "1",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -54,14 +60,16 @@
           "src": "http://clients.adciserver.com:1900/sites/default/files/styles/280x230/public/components/img_00000899.jpg?itok=9oLZrQ_Y",
           "alt": ""
         },
-        "title": "Barracuda",
+        "title": "Barracuda Rolling Shutter",
         "field_subtitle": "Hurricane Shutters come in all shapes and sizes",
         "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/hurricane-shutters/barracuda.htm",
         "title_1": "Alutech Rolling Shutters",
-        "field_component_weight": "10"
+        "field_component_weight": "10",
+        "field_component_applications": "Hurricane, Shading, Privacy, Security, Energy Savings",
+        "field_openings": "Doors, Windows"
       }
     },
     {
@@ -72,12 +80,14 @@
         },
         "title": "Insect Screens",
         "field_subtitle": "Zip Tex - Insect Screen Specifications",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-motorized-screen/insect-screens/index.htm",
         "title_1": "Zip Tex - Motorized Screen",
-        "field_component_weight": "20"
+        "field_component_weight": "20",
+        "field_component_applications": "Insect, Shading, Privacy, Energy Savings",
+        "field_openings": "Doors, Garage Doors, Lanai, Wide Opening, Windows"
       }
     },
     {
@@ -88,12 +98,14 @@
         },
         "title": "Scorpion - Insect Screen",
         "field_subtitle": "Pleated Retractable Insect Screen",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Insect",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/scorpion-insect-screen/scorpion-insect-screen/index.htm",
         "title_1": "Scorpion - Insect Screen ",
-        "field_component_weight": "20"
+        "field_component_weight": "20",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -104,12 +116,14 @@
         },
         "title": "Solar Shading Screens",
         "field_subtitle": "Zip Tex - Solar and Shade Screen",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-motorized-screen/solar-shading-screens/index.htm",
         "title_1": "Zip Tex - Motorized Screen",
-        "field_component_weight": "30"
+        "field_component_weight": "30",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -120,12 +134,14 @@
         },
         "title": "Vinyl Roll Screen",
         "field_subtitle": "Zip Tex - Clear Windows for Weather Protection",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-motorized-screen/vinyl-roll-screen/index.htm",
         "title_1": "Zip Tex - Motorized Screen",
-        "field_component_weight": "40"
+        "field_component_weight": "40",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -136,12 +152,14 @@
         },
         "title": "Motorized Garage Door Screen",
         "field_subtitle": "for single or double car garages",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-motorized-screen/motorized-garage-door-screen/index.htm",
         "title_1": "Zip Tex - Motorized Screen",
-        "field_component_weight": "50"
+        "field_component_weight": "50",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -152,12 +170,14 @@
         },
         "title": "Drop Shades",
         "field_subtitle": "Our zippered end retention system has been a huge success and has satisfied most of your needs. ",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Insect, Shading, Privacy, Energy Savings",
         "field_prod_tags": "Doors, Garage Doors, Lanai, Wide Opening, Windows",
         "path": "/products/zip-tex-exterior-rolling-solar-screen/zip-tex-cable-system.htm",
         "title_1": "Zip Tex - Motorized Screen",
-        "field_component_weight": "60"
+        "field_component_weight": "60",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -167,13 +187,15 @@
           "alt": ""
         },
         "title": "HV Bertha",
-        "field_subtitle": "Alutech's Accordion Hurricane Shutters are designed to cover windows, sliding glass doors or enclose total balconies.",
-        "field_component_extra_options": "",
+        "field_subtitle": "Alutech's Accordion Hurricane Shutters are designed to cover windows, sliding glass doors or enclose total balconies.",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Hurricane, Security",
         "field_prod_tags": "Balconies, Doors, Lanai, Wide Opening, Windows",
         "path": "/products/accordion-shutter/hv-bertha.htm",
         "title_1": "Accordion Shutters",
-        "field_component_weight": "80"
+        "field_component_weight": "80",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -184,12 +206,14 @@
         },
         "title": "RC 37",
         "field_subtitle": "Of the various models of the roll down shutters available, the RC 37 foam filled slat allows for shutter application when an exceptionally small housing is necessary",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/privacy-security-shutters/rc37.htm",
         "title_1": "Alutech Rolling Shutters",
-        "field_component_weight": "90"
+        "field_component_weight": "90",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -200,12 +224,14 @@
         },
         "title": "RCE 40",
         "field_subtitle": "The most cost effective roll shutter we carry is the RCE 40",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/hurricane-shutters/rce-40.htm",
         "title_1": "Alutech Rolling Shutters",
-        "field_component_weight": "100"
+        "field_component_weight": "100",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -216,12 +242,14 @@
         },
         "title": "RC 42",
         "field_subtitle": "The RC 42 Foam Filled slat is the most commonly used shutter slat in today’s market.",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/privacy-security-shutters/rc40-rc42.htm",
         "title_1": "Alutech Rolling Shutters",
-        "field_component_weight": "110"
+        "field_component_weight": "110",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     },
     {
@@ -232,12 +260,14 @@
         },
         "title": "Bertha-58",
         "field_subtitle": "",
-        "field_component_extra_options": "",
+        "field_component_extra_options": "- Extruded Aluminum\n- Manual and Motorized options\n- Remote Controlled\n- Home automation integration\n- For Extra Small Housing\n- Self contained in upper housing",
         "field_prod_application": "Hurricane, Shading, Privacy, Security, Energy Savings",
         "field_prod_tags": "Doors, Windows",
         "path": "/products/alu-star-roll-shutters/hurricane-shutters/bertha-58.htm",
         "title_1": "Alutech Rolling Shutters",
-        "field_component_weight": "130"
+        "field_component_weight": "130",
+        "field_component_applications": "",
+        "field_openings": ""
       }
     }
   ]
